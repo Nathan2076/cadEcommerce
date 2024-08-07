@@ -1,6 +1,7 @@
 <?php
 include("controller/conexao.php");
 
+// Pega a categoria fornecida pelo usuário e a insere na tabela "categoria".
 $descricao = $_POST["descricao"];
 $cad_categoria = "INSERT INTO categoria(DESCRICAO) VALUES ('$descricao')";
 

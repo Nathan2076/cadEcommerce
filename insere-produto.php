@@ -11,6 +11,10 @@
     $grava_produto = "INSERT INTO produtos(IDCATEGORIA, IDMARCA, NOME, DESCRICAO, ESTOQUE, PRECO) VALUES ('$categoria', '$marca', '$nome_produto', '$descricao', '$estoque', '$preco')";
     $result_gravacao = mysqli_query($mysqli, $grava_produto);
 
+    /* Caso haja alguma alteração na tabela (o produto é cadastrado), envia "Produto cadastrado com sucesso".
+     * Do contrário, envia "Produto não cadastrado, tente novamente."
+     */
+    
     if (mysqli_affected_rows($mysqli) != 0) {
         echo "
             <META HTTP-EQUIV=REFRESH CONTENT='O;URL=produtos.php'>
