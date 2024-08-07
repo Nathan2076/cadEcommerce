@@ -8,7 +8,12 @@
 
 Um projeto de E-commerce com cadastro de produtos, categorias e marcas, realizado nas aulas de Programação Web II.
 
-## Funções
+![Exemplo de pedido](docs/Pedido.png)
+![Tela de carrinho](docs/Carrinho.png)
+![Banco de dados pedidos](docs/Pedidos.png)
+![Banco de dados produtos](docs/Produtos.png)
+
+## Métodos
 
 ### [mysqli_connect](https://www.php.net/manual/en/mysqli.construct.php)
 
@@ -22,7 +27,7 @@ Exemplo:
 
 $server = "localhost";
 $admin  = "treinador";
-$senha  = "admin123";
+$senha  = "admin1234";
 $banco  = "FutebolFC";
 
 $mysqli = mysqli_connect($server, $admin, $senha, $banco);
