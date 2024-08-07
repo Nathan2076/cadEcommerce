@@ -8,7 +8,7 @@
 
 Um projeto de E-commerce com cadastro de produtos, categorias e marcas, realizado nas aulas de Programação Web II.
 
-<img src="docs/Pedido.png" alt="Exemplo de pedido" width="49.5%" /> <img src="docs/Carrinho.png" alt="Tela de carrinho" width="49.5%" />
+<img src="docs/Add.png" alt="Exemplo de pedido" width="49.5%" /> <img src="docs/Carrinho.png" alt="Tela de carrinho" width="49.5%" />
 <img src="docs/Pedidos.png" alt="Banco de dados pedidos" width="49.5%" /> <img src="docs/Produtos.png" alt="Banco de dados produtos" width="49.5%" />
 
 ## Métodos
